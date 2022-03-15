@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="5dp"
-    tools:context=".agenda.AgendaActivity">
+    tools:context=".home.HomeActivity">
 
     <View
         android:id="@+id/view1"
@@ -30,6 +30,18 @@
         app:layout_constraintTop_toBottomOf="@id/view1"
         app:layout_constraintVertical_weight="2"
         tools:layout_editor_absoluteX="11dp" />
+
+    <ImageView
+        android:id="@+id/ddd"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/circle"
+        android:padding="10dp"
+        android:src="@drawable/dialpad"
+        app:layout_constraintBottom_toTopOf="@id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view1" />
     <FrameLayout
         android:layout_width="408dp"
         android:layout_height="60dp"
@@ -77,86 +89,99 @@
             android:textSize="24sp"
             android:textStyle="bold" />
     </LinearLayout>
-    <TextView
-        android:id="@+id/num7"
-        app:layout_constraintEnd_toStartOf="@id/first"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/first"
-        app:layout_constraintBottom_toBottomOf="@id/first"
-        android:text="7"
-        android:textStyle="bold"
-        android:textSize="50sp"
-        android:textColor="@color/black"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/battery"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/circle_green"
+        android:padding="10dp"
+        android:src="@drawable/battery"
+        app:layout_constraintEnd_toStartOf="@id/btnbattery"
+        app:layout_constraintTop_toTopOf="@id/btnbattery"
+        app:layout_constraintBottom_toBottomOf="@id/btnbattery"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/first"
-        android:background="@color/blue"
+        android:id="@+id/btnbattery"
         app:layout_constraintTop_toBottomOf="@id/view1"
-        app:layout_constraintBottom_toTopOf="@id/second"
+        app:layout_constraintBottom_toTopOf="@id/btnalarm"
         android:layout_marginStart="80dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_marginEnd="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <ImageView
+        android:id="@+id/alarm"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/circle"
+        android:padding="10dp"
+        android:src="@drawable/alarm"
+        app:layout_constraintEnd_toStartOf="@id/btnalarm"
+        app:layout_constraintTop_toTopOf="@id/btnalarm"
+        app:layout_constraintBottom_toBottomOf="@id/btnalarm"/>
+
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/second"
-        android:background="@color/blue"
-        app:layout_constraintTop_toBottomOf="@id/first"
+        android:id="@+id/btnalarm"
+        app:layout_constraintTop_toBottomOf="@id/btnbattery"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/third"
+        app:layout_constraintBottom_toBottomOf="@id/btncamera"
         android:layout_marginStart="80dp"
-        android:textColor="@color/white"
         android:layout_marginEnd="40dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    <TextView
-        android:id="@+id/num8"
-        app:layout_constraintEnd_toStartOf="@id/third"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/third"
-        app:layout_constraintBottom_toBottomOf="@id/third"
-        android:text="8"
-        android:textStyle="bold"
-        android:textSize="50sp"
-        android:textColor="@color/black"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/circle_pink"
+        android:padding="10dp"
+        android:src="@drawable/camera"
+        app:layout_constraintEnd_toStartOf="@id/btncamera"
+        app:layout_constraintTop_toTopOf="@id/btncamera"
+        app:layout_constraintBottom_toBottomOf="@id/btncamera"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/third"
-        android:background="@color/blue"
-        app:layout_constraintTop_toBottomOf="@id/second"
-        app:layout_constraintBottom_toBottomOf="@id/fourth"
+        android:id="@+id/btncamera"
+        app:layout_constraintTop_toBottomOf="@id/btnalarm"
+        app:layout_constraintBottom_toBottomOf="@id/btnquick"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginStart="80dp"
-        android:textColor="@color/white"
         android:layout_marginEnd="40dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    <TextView
-        android:id="@+id/num9"
-        app:layout_constraintEnd_toStartOf="@id/fourth"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/fourth"
-        app:layout_constraintBottom_toBottomOf="@id/fourth"
-        android:text="9"
-        android:textStyle="bold"
-        android:textSize="50sp"
-        android:textColor="@color/black"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/quickPic"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/circle_blue"
+        android:padding="10dp"
+        android:src="@drawable/view_quilt"
+        app:layout_constraintEnd_toStartOf="@id/btnquick"
+        app:layout_constraintTop_toTopOf="@id/btnquick"
+        app:layout_constraintBottom_toBottomOf="@id/btnquick"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/fourth"
-        android:background="#3EE645"
-        app:layout_constraintTop_toBottomOf="@id/third"
+        android:id="@+id/btnquick"
+        app:layout_constraintTop_toBottomOf="@id/btncamera"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginStart="80dp"
         android:layout_marginEnd="40dp"
         android:layout_width="match_parent"
-        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_height="wrap_content"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

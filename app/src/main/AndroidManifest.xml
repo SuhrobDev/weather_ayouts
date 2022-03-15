@@ -17,10 +17,13 @@
             android:exported="false" />
         <activity
             android:name=".email_app.EmailActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".agenda.AgendaActivity"
-            android:exported="true">
+            android:exported="false"/>
+        <activity
+            android:name=".home.HomeActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
