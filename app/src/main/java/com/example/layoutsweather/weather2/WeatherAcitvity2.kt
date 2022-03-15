@@ -10,4 +10,3 @@ class WeatherAcitvity2 : AppCompatActivity() {
         setContentView(R.layout.activity_weather2)
     }
 }
-//https://github.com/SuhrobDev/weather_ayouts.git
