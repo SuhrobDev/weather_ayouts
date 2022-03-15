@@ -17,6 +17,9 @@
             android:exported="false" />
         <activity
             android:name=".email_app.EmailActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".agenda.AgendaActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
