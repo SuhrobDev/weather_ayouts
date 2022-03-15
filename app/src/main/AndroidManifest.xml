@@ -13,10 +13,10 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".email_app.EmailActivity"
+            android:name=".weather2.WeatherAcitvity2"
             android:exported="false" />
         <activity
-            android:name=".weather1.WeatherActivity1"
+            android:name=".email_app.EmailActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
