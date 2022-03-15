@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Layouts weather</string>
+    <string name="_13">13</string>
+    <string name="tashkent">Tashkent</string>
+    <string name="_10_31_am">10:31 AM</string>
+    <string name="email_app">Email App</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+</resources>
