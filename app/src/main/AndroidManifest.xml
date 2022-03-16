@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LayoutsWeather">
         <activity
+            android:name=".kirish_oynasi.KirishActivity"
+            android:exported="false" />
+        <activity
             android:name=".weather4.Weather4Activity"
             android:exported="false" />
         <activity
