@@ -11,4 +11,13 @@
     <string name="_15">15</string>
     <string name="_12">12</string>
     <string name="wednesday_damolish">Wednesday \ Damolish</string>
+    <string name="precipitation">Precipitation</string>
+    <string name="morning">Morning</string>
+    <string name="evening">Evening</string>
+    <string name="tonight">Tonight</string>
+    <string name="_20">20%</string>
+    <string name="_20">20%</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="_20">20%</string>
+    <string name="_10">10%</string>
 </resources>
