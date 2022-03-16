@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="5dp"
-    tools:context=".agenda.AgendaActivity">
+    tools:context=".MainActivity">
 
     <View
         android:id="@+id/view1"
@@ -96,7 +96,6 @@
         app:layout_constraintBottom_toTopOf="@id/second"
         android:layout_marginStart="80dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textColor="@color/white"
         android:layout_marginEnd="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -108,7 +107,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="@id/third"
         android:layout_marginStart="80dp"
-        android:textColor="@color/white"
         android:layout_marginEnd="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -131,7 +129,6 @@
         app:layout_constraintBottom_toBottomOf="@id/fourth"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginStart="80dp"
-        android:textColor="@color/white"
         android:layout_marginEnd="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
