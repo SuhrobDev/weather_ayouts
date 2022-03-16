@@ -77,83 +77,250 @@
             android:textSize="24sp"
             android:textStyle="bold" />
     </LinearLayout>
+<!--    <TextView-->
+<!--        android:id="@+id/num7"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/first"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@id/first"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/first"-->
+<!--        android:text="7"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="50sp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/first"-->
+<!--        android:background="@color/blue"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/view1"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/second"-->
+<!--        android:layout_marginStart="80dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/second"-->
+<!--        android:background="@color/blue"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/first"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/third"-->
+<!--        android:layout_marginStart="80dp"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/num8"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/third"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@id/third"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/third"-->
+<!--        android:text="8"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="50sp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/third"-->
+<!--        android:background="@color/blue"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/second"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/fourth"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_marginStart="80dp"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/num9"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/fourth"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@id/fourth"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/fourth"-->
+<!--        android:text="9"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="50sp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/fourth"-->
+<!--        android:background="#3EE645"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/third"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:layout_marginStart="80dp"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_height="wrap_content"/>-->
+
     <TextView
-        android:id="@+id/num7"
-        app:layout_constraintEnd_toStartOf="@id/first"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/first"
-        app:layout_constraintBottom_toBottomOf="@id/first"
-        android:text="7"
-        android:textStyle="bold"
-        android:textSize="50sp"
-        android:textColor="@color/black"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/first"
-        android:background="@color/blue"
-        app:layout_constraintTop_toBottomOf="@id/view1"
-        app:layout_constraintBottom_toTopOf="@id/second"
-        android:layout_marginStart="80dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:textColor="@color/black"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/view2"
+        app:layout_constraintEnd_toEndOf="@id/view2"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="@id/view2"
+        app:layout_constraintTop_toTopOf="@id/view2"
+        app:layout_constraintVertical_bias="0.098" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:background="#77D8F8"
+        android:orientation="vertical"
+        android:padding="6dp"
+        app:layout_constraintBottom_toBottomOf="@id/first"
+        app:layout_constraintCircle="@id/first"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="195dp"
+        app:layout_constraintEnd_toEndOf="@id/first"
+        app:layout_constraintStart_toStartOf="@id/first"
+        app:layout_constraintTop_toTopOf="@id/first">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Monday 1.15 PM to 1.45 PM"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:text="Monday 1.15 PM to 1.45 PM"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="303dp"
+        android:layout_height="73dp"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:background="#77D8F8"
+        app:layout_constraintBottom_toBottomOf="@id/lin1"
+        app:layout_constraintCircle="@id/lin1"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintEnd_toEndOf="@id/lin1"
+        app:layout_constraintStart_toStartOf="@id/lin1"
+        app:layout_constraintTop_toTopOf="@id/lin1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Monday 1.15 PM to 1.45 PM"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:text="Monday 1.15 PM to 1.45 PM"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
         android:id="@+id/second"
-        android:background="@color/blue"
-        app:layout_constraintTop_toBottomOf="@id/first"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/third"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:id="@+id/num8"
-        app:layout_constraintEnd_toStartOf="@id/third"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/third"
-        app:layout_constraintBottom_toBottomOf="@id/third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="8"
-        android:textStyle="bold"
-        android:textSize="50sp"
         android:textColor="@color/black"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/third"
-        android:background="@color/blue"
-        app:layout_constraintTop_toBottomOf="@id/second"
-        app:layout_constraintBottom_toBottomOf="@id/fourth"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:id="@+id/num9"
-        app:layout_constraintEnd_toStartOf="@id/fourth"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/fourth"
-        app:layout_constraintBottom_toBottomOf="@id/fourth"
-        android:text="9"
+        android:textSize="70sp"
         android:textStyle="bold"
-        android:textSize="50sp"
-        android:textColor="@color/black"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/fourth"
-        android:background="#3EE645"
-        app:layout_constraintTop_toBottomOf="@id/third"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="40dp"
-        android:layout_width="match_parent"
-        android:textColor="@color/white"
-        android:layout_height="wrap_content"/>
+        app:layout_constraintBottom_toBottomOf="@id/view2"
+        app:layout_constraintEnd_toEndOf="@id/view2"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="@id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/first"
+        app:layout_constraintVertical_bias="0.435" />
 
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:layout_width="303dp"
+        android:layout_height="73dp"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:background="#77D8F8"
+        app:layout_constraintCircle="@id/second"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="195dp"
+        app:layout_constraintBottom_toBottomOf="@id/second"
+        app:layout_constraintEnd_toEndOf="@id/second"
+        app:layout_constraintStart_toStartOf="@id/second"
+        app:layout_constraintTop_toTopOf="@id/second">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Monday 1.15 PM to 1.45 PM"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:text="Monday 1.15 PM to 1.45 PM"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:textColor="@color/black"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/view2"
+        app:layout_constraintEnd_toEndOf="@id/view2"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="@id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/second"
+        app:layout_constraintVertical_bias="0.214" />
+
+    <LinearLayout
+        android:id="@+id/lin3"
+        android:layout_width="303dp"
+        android:layout_height="73dp"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:background="#77D8F8"
+        app:layout_constraintCircle="@id/third"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="195dp"
+        app:layout_constraintBottom_toBottomOf="@id/third"
+        app:layout_constraintEnd_toEndOf="@id/third"
+        app:layout_constraintStart_toStartOf="@id/third"
+        app:layout_constraintTop_toTopOf="@id/third">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Wednesday"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:text="Damolish"
+            android:textSize="18sp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
