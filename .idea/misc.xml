@@ -10,15 +10,18 @@
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/brightness_6.xml" value="0.135" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/circle.xml" value="0.1515" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/cloud_queue.xml" value="0.1515" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/invert_colors.xml" value="0.1515" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/lock.xml" value="0.135" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/menu.xml" value="0.135" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/perm_identity.xml" value="0.135" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/sunny.xml" value="0.1515" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_agenda.xml" value="0.1685185185185185" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_email.xml" value="0.2074074074074074" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_home.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_main.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_weather1.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_weather2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_weather4.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>
