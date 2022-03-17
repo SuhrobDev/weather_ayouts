@@ -10,29 +10,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LayoutsWeather">
         <activity
-            android:name="com.example.layoutsweather.weather.kirish_oynasi.KirishActivity"
+            android:name=".LinerRecycleViewLayout.Followers.FollowersActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.layoutsweather.weather.weather4.Weather4Activity"
+            android:name=".weather.kirish_oynasi.KirishActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.layoutsweather.weather.weather2.WeatherAcitvity2"
+            android:name=".weather.weather4.Weather4Activity"
             android:exported="false" />
         <activity
-            android:name="com.example.layoutsweather.weather.email_app.EmailActivity"
+            android:name=".weather.weather2.WeatherAcitvity2"
             android:exported="false" />
         <activity
-            android:name="com.example.layoutsweather.weather.agenda.AgendaActivity"
+            android:name=".weather.email_app.EmailActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.layoutsweather.weather.weather1.WeatherActivity1"
+            android:name=".weather.agenda.AgendaActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.layoutsweather.weather.home.HomeActivity"
-            android:exported="true"/>
+            android:name=".weather.weather1.WeatherActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".weather.home.HomeActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
