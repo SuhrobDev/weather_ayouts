@@ -1,4 +1,4 @@
-package com.example.layoutsweather.kirish_oynasi
+package com.example.layoutsweather.weather.kirish_oynasi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

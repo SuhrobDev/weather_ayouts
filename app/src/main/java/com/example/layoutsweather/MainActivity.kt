@@ -4,13 +4,13 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.example.layoutsweather.agenda.AgendaActivity
-import com.example.layoutsweather.email_app.EmailActivity
-import com.example.layoutsweather.home.HomeActivity
-import com.example.layoutsweather.kirish_oynasi.KirishActivity
-import com.example.layoutsweather.weather1.WeatherActivity1
-import com.example.layoutsweather.weather2.WeatherAcitvity2
-import com.example.layoutsweather.weather4.Weather4Activity
+import com.example.layoutsweather.weather.agenda.AgendaActivity
+import com.example.layoutsweather.weather.email_app.EmailActivity
+import com.example.layoutsweather.weather.home.HomeActivity
+import com.example.layoutsweather.weather.kirish_oynasi.KirishActivity
+import com.example.layoutsweather.weather.weather1.WeatherActivity1
+import com.example.layoutsweather.weather.weather2.WeatherAcitvity2
+import com.example.layoutsweather.weather.weather4.Weather4Activity
 
 class MainActivity : AppCompatActivity() {
     lateinit var weather1:Button

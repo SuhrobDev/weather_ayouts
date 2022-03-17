@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/city_at_night"
-    tools:context=".weather4.Weather4Activity">
+    tools:context=".weather.weather4.Weather4Activity">
 
     <ImageView
         android:layout_width="wrap_content"

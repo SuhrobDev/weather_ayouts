@@ -1,4 +1,4 @@
-package com.example.layoutsweather.home
+package com.example.layoutsweather.weather.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

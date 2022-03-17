@@ -1,8 +1,7 @@
-package com.example.layoutsweather.agenda
+package com.example.layoutsweather.weather.agenda
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Html
 import androidx.appcompat.widget.AppCompatButton
 import com.example.layoutsweather.R
 

@@ -1,4 +1,4 @@
-package com.example.layoutsweather.email_app
+package com.example.layoutsweather.weather.email_app
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
