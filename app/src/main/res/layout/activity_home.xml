@@ -42,6 +42,7 @@
         app:layout_constraintBottom_toTopOf="@id/view2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/view1" />
+
     <FrameLayout
         android:layout_width="408dp"
         android:layout_height="60dp"
@@ -171,6 +172,7 @@
         app:layout_constraintEnd_toStartOf="@id/btnquick"
         app:layout_constraintTop_toTopOf="@id/btnquick"
         app:layout_constraintBottom_toBottomOf="@id/btnquick"/>
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnquick"
         app:layout_constraintTop_toBottomOf="@id/btncamera"
