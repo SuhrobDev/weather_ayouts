@@ -4,6 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.layoutsweather.LinerRecycleViewLayout.Followers.FollowersActivity
+import com.example.layoutsweather.Purchase.PurchaseActivity
+import com.example.layoutsweather.freelancer.FreelancerActivity
+import com.example.layoutsweather.sushi.SushiActivity
 import com.example.layoutsweather.weather.agenda.AgendaActivity
 import com.example.layoutsweather.weather.email_app.EmailActivity
 import com.example.layoutsweather.weather.home.HomeActivity
@@ -13,14 +17,18 @@ import com.example.layoutsweather.weather.weather2.WeatherAcitvity2
 import com.example.layoutsweather.weather.weather4.Weather4Activity
 
 class MainActivity : AppCompatActivity() {
-    lateinit var weather1:Button
-    lateinit var weather2:Button
-    lateinit var weather3:Button
-    lateinit var weather4:Button
-    lateinit var weather5:Button
-    lateinit var weather6:Button
-    lateinit var weather7:Button
-    lateinit var weather8:Button
+    private lateinit var weather1:Button
+    private lateinit var weather2:Button
+    private lateinit var weather3:Button
+    private lateinit var weather4:Button
+    private lateinit var weather5:Button
+    private lateinit var weather6:Button
+    private lateinit var weather7:Button
+    private lateinit var weather8:Button
+    lateinit var freelancer:Button
+    lateinit var followers:Button
+    lateinit var sushi:Button
+    lateinit var purchase:Button
     override fun onCreate(savedInstanceState : Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -32,6 +40,10 @@ class MainActivity : AppCompatActivity() {
         weather6=findViewById(R.id.weather6)
         weather7=findViewById(R.id.weather7)
         weather8=findViewById(R.id.weather8)
+        freelancer=findViewById(R.id.freelancer)
+        followers=findViewById(R.id.followers)
+        sushi=findViewById(R.id.sushi)
+        purchase=findViewById(R.id.purchase)
         weather1.setOnClickListener {
             val intent = Intent(this , WeatherActivity1::class.java)
             startActivity(intent)
@@ -64,8 +76,21 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this , KirishActivity::class.java)
             startActivity(intent)
         }
-
-
-
+        freelancer.setOnClickListener {
+            val intent = Intent(this , FreelancerActivity::class.java)
+            startActivity(intent)
+        }
+        followers.setOnClickListener {
+            val intent = Intent(this , FollowersActivity::class.java)
+            startActivity(intent)
+        }
+        sushi.setOnClickListener {
+            val intent = Intent(this , SushiActivity::class.java)
+            startActivity(intent)
+        }
+        purchase.setOnClickListener {
+            val intent = Intent(this , PurchaseActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -8,12 +8,10 @@
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable-v24/circle_pink.xml" value="0.241" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.241" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable-v24/search.xml" value="0.244" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/add_icon.xml" value="0.103" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/alarm.xml" value="0.241" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/arrow_downward.xml" value="0.241" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/arrow_upward.xml" value="0.241" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/battery.xml" value="0.241" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/brightness_4.xml" value="0.288" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/brightness_6.xml" value="0.241" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/camera.xml" value="0.241" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/circle.xml" value="0.2345" />
@@ -23,28 +21,20 @@
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/dialpad.xml" value="0.241" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/ic_baseline_cloud_24.xml" value="0.2345" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/ic_launcher_background.xml" value="0.241" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/invert_colors.xml" value="0.241" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/lock.xml" value="0.244" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/menu.xml" value="0.2345" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/perm_identity.xml" value="0.241" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/star.xml" value="0.288" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/sunny.xml" value="0.2345" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/drawable/view_quilt.xml" value="0.241" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_agenda.xml" value="0.3619791666666667" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_email.xml" value="0.18541666666666667" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_followers.xml" value="0.3625" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_home.xml" value="0.3619791666666667" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_kirish.xml" value="0.3625" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_main.xml" value="0.18541666666666667" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_main2.xml" value="0.3625" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_purchase_activuty.xml" value="0.3625" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_purchases.xml" value="0.3625" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_weather1.xml" value="0.33" />
         <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_weather2.xml" value="0.18541666666666667" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_weather4.xml" value="0.3619791666666667" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/activity_weather5.xml" value="0.2" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/layout/item_purchase.xml" value="0.3736842105263158" />
-        <entry key="..\:/Android_Studio/weather_ayouts/app/src/main/res/menu/menu.xml" value="0.5" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable-v24/arrow.xml" value="0.127" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/add.xml" value="0.127" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/add_circle.xml" value="0.1205" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/add_icon.xml" value="0.135" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/brightness_6.xml" value="0.135" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/cloud_queue.xml" value="0.1515" />
@@ -52,9 +42,21 @@
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/menu.xml" value="0.135" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/drawable/perm_identity.xml" value="0.135" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_email.xml" value="0.2" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_followers.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_freelancer.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_home.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_main.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_purchases.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_recyle.xml" value="0.33" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_sushi.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_weather1.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/activity_weather2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/item_contact.xml" value="0.25" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/item_followers.xml" value="0.22" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/item_freelancer.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/item_purchase.xml" value="0.221025641025641" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/layout/item_sushi.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/suhro/AndroidStudioProjects/Layoutsweather/app/src/main/res/menu/menu.xml" value="0.1" />
       </map>
     </option>
   </component>

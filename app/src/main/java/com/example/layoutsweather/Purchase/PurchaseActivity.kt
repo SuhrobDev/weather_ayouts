@@ -1,14 +1,13 @@
-package com.example.layoutsweather.LinerRecycleViewLayout.Followers.Purchase
+package com.example.layoutsweather.Purchase
 
-import android.graphics.Color
 import android.os.Bundle
 import android.view.Menu
 import android.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.layoutsweather.LinerRecycleViewLayout.Followers.Purchase.adapter.ContactRecycleAdapter
-import com.example.layoutsweather.LinerRecycleViewLayout.Followers.Purchase.models.ContactData
+import com.example.layoutsweather.Purchase.adapter.ContactRecycleAdapter
+import com.example.layoutsweather.Purchase.models.ContactData
 import com.example.layoutsweather.R
 
 class PurchaseActivity : AppCompatActivity() {
@@ -26,7 +25,7 @@ class PurchaseActivity : AppCompatActivity() {
         listView.adapter = adapter
     }
 
-    fun addData(){
+    private fun addData(){
         data = ArrayList()
         data.add(ContactData(R.drawable.star,"Blue MountainS Day Tour","12.03.2022","$45","Redeemed"))
         data.add(ContactData(R.drawable.star,"Blue MountainS Day Tour","12.03.2022","$45","Redeemed"))
@@ -45,13 +44,13 @@ class PurchaseActivity : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu,menu)
 
-        var search = menu?.findItem(R.id.search_action)
-        var searchView = search?.actionView as SearchView
+        val search = menu?.findItem(R.id.search_action)
+        val searchView = search?.actionView as SearchView
 
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(p0: String?): Boolean {
                 return false
-            };
+            }
 
             override fun onQueryTextChange(p0: String?): Boolean {
                 adapter.getFilter().filter(p0)

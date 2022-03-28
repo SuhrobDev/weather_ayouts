@@ -1,4 +1,4 @@
-package com.example.layoutsweather.LinerRecycleViewLayout.Followers.Purchase.adapter
+package com.example.layoutsweather.Purchase.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,7 +7,7 @@ import android.widget.Filter
 import android.widget.Filterable
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.layoutsweather.LinerRecycleViewLayout.Followers.Purchase.models.ContactData
+import com.example.layoutsweather.Purchase.models.ContactData
 import com.example.layoutsweather.R
 import com.google.android.material.imageview.ShapeableImageView
 

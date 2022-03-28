@@ -24,7 +24,6 @@
         app:layout_constraintTop_toBottomOf="@id/weather1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/weather3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
@@ -77,6 +76,42 @@
         android:background="@color/blue"
         android:text="kirish"
         app:layout_constraintTop_toBottomOf="@id/weather7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/freelancer"
+        android:background="@color/blue"
+        android:text="freelancer"
+        app:layout_constraintTop_toBottomOf="@id/weather8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/followers"
+        android:background="@color/blue"
+        android:text="followers"
+        app:layout_constraintTop_toBottomOf="@id/freelancer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/sushi"
+        android:background="@color/blue"
+        android:text="sushi"
+        app:layout_constraintTop_toBottomOf="@id/followers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/purchase"
+        android:background="@color/blue"
+        android:text="purchase"
+        app:layout_constraintTop_toBottomOf="@id/sushi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_width="wrap_content"

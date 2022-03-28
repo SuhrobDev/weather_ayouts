@@ -8,37 +8,43 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LayoutsWeather">
-        <!--        <activity-->
-        <!--            android:name=".MainActivity"-->
-        <!--            android:exported="false" />-->
-        <!--        <activity-->
-        <!--            android:name=".LinerRecycleViewLayout.Followers.FollowersActivity"-->
-        <!--            android:exported="false" />-->
-        <!--        <activity-->
-        <!--            android:name=".weather.kirish_oynasi.KirishActivity"-->
-        <!--            android:exported="false" />-->
-        <!--        <activity-->
-        <!--            android:name=".weather.weather4.Weather4Activity"-->
-        <!--            android:exported="false" />-->
-        <!--        <activity-->
-        <!--            android:name=".weather.weather2.WeatherAcitvity2"-->
-        <!--            android:exported="false" />-->
-        <!--        <activity-->
-        <!--            android:name=".weather.email_app.EmailActivity"-->
-        <!--            android:exported="false" />-->
-        <!--        <activity-->
-        <!--            android:name=".weather.agenda.AgendaActivity"-->
-        <!--            android:exported="false" />-->
-        <!--        <activity-->
-        <!--            android:name=".weather.weather1.WeatherActivity1"-->
-        <!--            android:exported="false" />-->
-        <!--        <activity-->
-        <!--            android:name=".weather.home.HomeActivity"-->
-        <!--            android:exported="true" />-->
+        android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name=".LinerRecycleViewLayout.Followers.Purchase.PurchaseActivity"
-            android:exported="true">
+            android:name=".sushi.SushiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".weather.kirish_oynasi.KirishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".weather.weather4.Weather4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".weather.weather2.WeatherAcitvity2"
+            android:exported="false" />
+        <activity
+            android:name=".weather.email_app.EmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".weather.agenda.AgendaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".weather.weather1.WeatherActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".weather.home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LinerRecycleViewLayout.Followers.FollowersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".freelancer.FreelancerActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".Purchase.PurchaseActivity"
+            android:exported="false"/>
+            <activity
+                android:name=".MainActivity"
+                android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

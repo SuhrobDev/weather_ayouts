@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@drawable/weather2"
-        app:layout_constraintBottom_toTopOf="@id/view2"
+        app:layout_constraintBottom_toTopOf="@id/freelancerview"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,7 @@
     </View>
 
     <View
-        android:id="@+id/view2"
+        android:id="@+id/freelancerview"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="#80FFFFFF"
@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@id/view2"
+        app:layout_constraintBottom_toTopOf="@id/freelancerview"
         app:layout_constraintEnd_toEndOf="@+id/view1"
         app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="@id/view1"
@@ -164,11 +164,11 @@
         android:textColor="@color/black"
         android:textSize="70sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/view2"
-        app:layout_constraintEnd_toEndOf="@id/view2"
+        app:layout_constraintBottom_toBottomOf="@id/freelancerview"
+        app:layout_constraintEnd_toEndOf="@id/freelancerview"
         app:layout_constraintHorizontal_bias="0.043"
-        app:layout_constraintStart_toStartOf="@id/view2"
-        app:layout_constraintTop_toTopOf="@id/view2"
+        app:layout_constraintStart_toStartOf="@id/freelancerview"
+        app:layout_constraintTop_toTopOf="@id/freelancerview"
         app:layout_constraintVertical_bias="0.098" />
 
     <LinearLayout
@@ -240,10 +240,10 @@
         android:textColor="@color/black"
         android:textSize="70sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/view2"
-        app:layout_constraintEnd_toEndOf="@id/view2"
+        app:layout_constraintBottom_toBottomOf="@id/freelancerview"
+        app:layout_constraintEnd_toEndOf="@id/freelancerview"
         app:layout_constraintHorizontal_bias="0.043"
-        app:layout_constraintStart_toStartOf="@id/view2"
+        app:layout_constraintStart_toStartOf="@id/freelancerview"
         app:layout_constraintTop_toBottomOf="@+id/first"
         app:layout_constraintVertical_bias="0.435" />
 
@@ -286,10 +286,10 @@
         android:textColor="@color/black"
         android:textSize="70sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/view2"
-        app:layout_constraintEnd_toEndOf="@id/view2"
+        app:layout_constraintBottom_toBottomOf="@id/freelancerview"
+        app:layout_constraintEnd_toEndOf="@id/freelancerview"
         app:layout_constraintHorizontal_bias="0.043"
-        app:layout_constraintStart_toStartOf="@id/view2"
+        app:layout_constraintStart_toStartOf="@id/freelancerview"
         app:layout_constraintTop_toBottomOf="@+id/second"
         app:layout_constraintVertical_bias="0.214" />
 
